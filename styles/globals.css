@@ -20,6 +20,10 @@ html {
   @apply max-w-full w-[1440px] mx-auto px-5 lg:px-14;
 }
 
+.slick-dots {
+  margin-bottom: -1.25rem;
+}
+
 @layer components {
   .navbar-shadow {
     box-shadow: 3px 3px -8px #ddd;

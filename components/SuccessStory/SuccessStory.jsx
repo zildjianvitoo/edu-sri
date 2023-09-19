@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 
 export default function SuccessStory() {
   return (
-    <section className="bg-[#FFf7F8] py-14 relative">
+    <section className="bg-[#FFf7F8] py-14 lg:pb-24 relative">
       <div className="container">
         <div className="flex flex-col items-center lg:flex-row gap-y-10 gap-x-36">
           <figure className="rounded-lg">
@@ -25,7 +25,9 @@ export default function SuccessStory() {
               keberhasilan akademik kapan pun Anda membutuhkannya. Kami siap
               membantu Anda dengan layanan terbaik.
             </p>
-            <Button className={"w-fit mt-5"}>Baca Selengkapnya</Button>
+            <Button className={"w-fit mt-5 opacity-90 hover:opacity-100"}>
+              Baca Selengkapnya
+            </Button>
             <div className="absolute w-5 h-5 rounded-full bg-orangeEduSri top-[2.5rem] right-[20rem] z-0 hidden md:block" />
             <div className="absolute w-7 h-7 rounded-full bg-secondary bottom-[2.5rem] left-[12rem] z-0 hidden md:block" />
             <div className="absolute w-9 h-9 rounded-full bg-greenEduSri bottom-[2.5rem] right-[14rem] z-0 hidden md:block" />
