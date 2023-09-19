@@ -10,12 +10,12 @@ export default function Benefit() {
         <div className="flex flex-col items-center lg:flex-row gap-y-10 gap-x-44">
           <figure className="">
             <Image
-              src={"/assets/images/LandingPage/landingpage-benefit.png"}
+              src={"/assets/images/LandingPage/landingpage-benefit.jpg"}
               alt="benefit image"
               width={510}
               height={525}
               quality={100}
-              className="sm:w-[430px]"
+              className="sm:w-[430px] -scale-x-100"
             />
           </figure>
           <div className="flex flex-col ">

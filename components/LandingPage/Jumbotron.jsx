@@ -49,16 +49,16 @@ export default function Jumbotron() {
             </Link>
           </div>
 
-          <div className="relative mt-12 sm:mt-0 lg:mt-11">
+          <div className="relative sm:mt-0">
             <figure data-aos="zoom-in">
               <Image
-                src={"/assets/images/LandingPage/landingpage-benefit.png"}
+                src={"/assets/images/LandingPage/landingpage-jumbotron.jpg"}
                 alt="Jumbotron Image"
                 width={530}
                 height={610}
                 priority={true}
                 quality={100}
-                className="jumbotron-img"
+                className="-scale-x-100"
               />
             </figure>
           </div>

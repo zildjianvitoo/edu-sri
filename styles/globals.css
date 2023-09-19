@@ -16,14 +16,6 @@ html {
   @apply bg-[#FFf7F8] w-full h-[100px];
 }
 
-.jumbotron-img {
-  transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  -moz-transform: scaleX(-1);
-  -ms-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-}
-
 .container {
   @apply max-w-full w-[1440px] mx-auto px-5 lg:px-14;
 }
