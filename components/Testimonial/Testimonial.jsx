@@ -21,14 +21,14 @@ export default function Testimonial() {
       {
         breakpoint: 768,
         settings: {
-          centerPadding: "30px",
+          // centerPadding: "30px",
         },
       },
     ],
   };
 
   return (
-    <section className="bg-white py-14 lg:py-20 relative">
+    <section className="bg-white px-2  py-14 lg:py-20 relative">
       <div className="container  ">
         <div className="flex flex-col justify-center text-center">
           <h3 className="text-3xl font-semibold text-textColor lg:text-4xl">
@@ -48,13 +48,11 @@ export default function Testimonial() {
             className="absolute w-5 h-5 rounded-full bg-secondary top-[60%] left-1/3
            z-0 hidden lg:block"
           />
+
           <div className="absolute w-9 h-9 rounded-full bg-greenEduSri top-[28.5rem] right-[24rem] z-0 hidden xl:block" />
           <hr className="bg-[#e5dfdf] w-1/4 sm:w-1/6 mx-auto h-[2px] mt-3" />
           <div>
-            <Slider
-              className="pt-14 mt-6 px-0 overflow-x-hidden overflow-y-clip "
-              {...settings}
-            >
+            <Slider className="pt-14 mt-6 px-0 " {...settings}>
               {testimonialList.map((testi, index) => (
                 <div
                   key={index}

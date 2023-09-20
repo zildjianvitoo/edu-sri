@@ -30,8 +30,8 @@ const quickLinks1 = [
     name: "Kategori",
   },
   {
-    path: "/kursus",
-    name: "Cari Kursus",
+    path: "/Kelas",
+    name: "Cari Kelas",
   },
   {
     path: "/kontak",

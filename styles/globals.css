@@ -22,7 +22,7 @@ html {
 
 .slick-dots {
   margin-bottom: -1.25rem;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 @layer components {
