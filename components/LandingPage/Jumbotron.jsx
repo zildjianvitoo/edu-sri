@@ -10,16 +10,20 @@ export default function Jumbotron() {
     AOS.refresh();
   }, []);
   return (
-    <section className=" bg-[#FFf7F8] min-h-[85vh]">
+    <section className=" bg-[#FFf7F8] lg:min-h-[85vh]">
       <div className="container ">
         <div className="flex flex-col items-center lg:gap-x-32 md:flex-row">
           <div className="flex flex-col lg:mt-24">
-            <h4 className="text-xl font-bold uppercase text-orangeEduSri">
+            <h4
+              className="text-xl font-bold uppercase text-orangeEduSri"
+              data-aos="fade-right"
+            >
               Sudah 5 tahun sejak berdiri
             </h4>
             <h1
               className="text-[35px] sm:text-[40px] lg:text-[43px] xl:text-[53px] mt-2 leading-none font-bold to-[#6F3AFA]"
               data-aos="fade-right"
+              data-aos-delay="100"
             >
               Berinvestasi Dalam <br /> Pengetahuan Memberikan <br />{" "}
               <span className="text-secondary">Banyak Keuntungan</span>
@@ -27,7 +31,7 @@ export default function Jumbotron() {
             <p
               className="mt-4 text-lg  text-[#A0A0A0]"
               data-aos="fade-right"
-              data-aos-delay="100"
+              data-aos-delay="200"
             >
               Temukan potensi Anda dan raih impian dengan Pengetahuan yang
               tepat. <br />

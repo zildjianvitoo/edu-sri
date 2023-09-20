@@ -22,6 +22,7 @@ html {
 
 .slick-dots {
   margin-bottom: -1.25rem;
+  overflow: auto;
 }
 
 @layer components {
@@ -32,7 +33,7 @@ html {
 
 @layer base {
   .sticky-navbar {
-    @apply w-full h-[80px] leading-[80px] sticky top-0 left-0 z-[9999] navbar-shadow transition-all duration-300;
+    @apply w-full h-[80px] leading-[80px] sticky top-0 left-0 z-[9999] navbar-shadow;
   }
 }
 

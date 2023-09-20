@@ -6,7 +6,7 @@ export default function SuccessStory() {
   return (
     <section className="bg-[#FFf7F8] py-14 lg:pb-24 relative">
       <div className="container">
-        <div className="flex flex-col items-center lg:flex-row gap-y-10 gap-x-36">
+        <div className="flex flex-col items-center md:flex-row gap-y-10 gap-x-20 lg:gap-x-36">
           <figure className="rounded-lg">
             <Image
               width={507}
@@ -20,7 +20,7 @@ export default function SuccessStory() {
             <h3 className="text-3xl font-semibold text-textColor lg:text-4xl">
               Cerita Sukses Dari Alumni
             </h3>
-            <p className=" text-lg lg:text-xl  text-[#A0A0A0] max-w-lg font-medium mt-5">
+            <p className=" text-lg lg:text-xl  text-[#A0A0A0] max-w-lg font-medium mt-5 md:mt-3 mt-5">
               Dapatkan dukungan siswa 24/7 untuk membantu Anda meraih
               keberhasilan akademik kapan pun Anda membutuhkannya. Kami siap
               membantu Anda dengan layanan terbaik.
