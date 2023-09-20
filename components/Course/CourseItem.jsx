@@ -1,9 +1,19 @@
 import cn from "@/utils/cn";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
 
-function CourseItem({ className, desc, icon }) {
+function CourseItem({ className, desc, icon, index }) {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <div className="flex flex-col items-center justify-center px-6 py-12 bg-white rounded-lg shadow z-[5]">
+    <div
+      className="flex flex-col items-center justify-center px-6 py-12 bg-white rounded-lg shadow z-[5]"
+      data-aos="fade-down"
+      data-aos-delay={(index * 50).toString()}
+    >
       <div
         className={cn(
           "rounded-md bg-gradient-to-b grid place-items-center p-3",

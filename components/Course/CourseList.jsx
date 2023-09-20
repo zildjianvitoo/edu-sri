@@ -68,6 +68,7 @@ function CourseList() {
       {courses.map((course, index) => (
         <CourseItem
           key={index}
+          index={index}
           className={course.className}
           icon={course.icon}
           desc={course.desc}

@@ -56,11 +56,11 @@ export default function Kontak() {
                 </p>
               </div>
             </div>
-            <div className="mt-16 flex flex-col py-9 lg:px-12 xl:px-16 gap-12 rounded-xl bg-white shadow-sm relative z-10">
+            <div className="mt-16 flex flex-col py-9 px-6 lg:px-12 xl:px-16 gap-12 rounded-xl bg-white shadow-sm relative z-10">
               <h3 className="text-3xl font-semibold text-textColor lg:text-4xl">
                 Ada Masukan?
               </h3>
-              <div className="flex gap-6 w-full ">
+              <div className="flex flex-col lg:flex-row gap-6 w-full ">
                 <div className="flex flex-col lg:w-1/4 gap-[28px] ">
                   <input
                     className="rounded-xl p-4 bg-[#FFf7F8] focus:outline-none focus:border-primary focus:border"
@@ -84,7 +84,9 @@ export default function Kontak() {
                 </div>
               </div>
               <a className="w-fit mx-auto">
-                <Button>Beri Masukan</Button>
+                <Button className={"opacity-90 hover:opacity-100"}>
+                  Beri Masukan
+                </Button>
               </a>
             </div>
           </div>

@@ -25,7 +25,10 @@ export default function TentangKami() {
         <div className="container ">
           <div className="flex flex-col justify-center  gap-y-20">
             <div className="flex flex-col items-center md:flex-row gap-y-6 gap-x-12 lg:gap-x-24 xl:gap-x-36 relative">
-              <figure className="rounded-lg">
+              <figure
+                className="rounded-lg relative z-10 "
+                data-aos="fade-right"
+              >
                 <Image
                   width={507}
                   height={335}
@@ -37,10 +40,18 @@ export default function TentangKami() {
                 />
               </figure>
               <div className="flex flex-col ">
-                <h3 className="text-3xl font-semibold text-textColor lg:text-4xl">
+                <h3
+                  className="text-3xl font-semibold text-textColor lg:text-4xl"
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                >
                   Cerita Sukses Para Alumni
                 </h3>
-                <p className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5">
+                <p
+                  className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
                   Tonton inspirasi cerita sukses dari para alumni kami yang
                   telah mencapai prestasi gemilang setelah menyelesaikan program
                   kami. Mereka adalah bukti nyata bahwa pendidikan di sini
@@ -48,12 +59,23 @@ export default function TentangKami() {
                   kehidupan. Temukan perjalanan mereka dan dapatkan motivasi
                   untuk meraih impian Anda
                 </p>
-                <Button className={"w-fit mt-5 opacity-90 hover:opacity-100"}>
-                  Tonton Selengkapnya
-                </Button>
+                <div data-aos="fade-left" data-aos-delay="300">
+                  {" "}
+                  <Button className={"w-fit mt-5 opacity-90 hover:opacity-100"}>
+                    Tonton Selengkapnya
+                  </Button>
+                </div>
 
-                <div className="absolute w-9 h-9 rounded-full bg-secondary -bottom-[1.15rem] left-[6rem] z-0 hidden lg:block" />
-                <div className="absolute w-11 h-11 rounded-full bg-[#e0e0e0] bottom-0 right-[14rem] z-0 hidden xl:block" />
+                <div
+                  className="absolute w-9 h-9 rounded-full bg-secondary -bottom-[1.15rem] left-[6rem] z-0 hidden lg:block"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                />
+                <div
+                  className="absolute w-11 h-11 rounded-full bg-[#e0e0e0] bottom-0 right-[14rem] z-0 hidden xl:block"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                />
               </div>
             </div>
             <div className="flex flex-col items-center md:justify-start md:mr-auto md:flex-row-reverse gap-y-6 gap-x-12 lg:gap-x-24 xl:gap-x-36">
@@ -67,26 +89,50 @@ export default function TentangKami() {
                 />
               </figure>
               <div className="flex flex-col md:text-right">
-                <h3 className="text-3xl font-semibold text-textColor lg:text-4xl max-w-md ml-auto">
+                <h3
+                  className="text-3xl font-semibold text-textColor lg:text-4xl max-w-md ml-auto"
+                  data-aos="fade-right"
+                >
                   Tutorial Cara Tergabung Dalam Kelas Kami | Mari Mulai!
                 </h3>
-                <p className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5">
+                <p
+                  className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5"
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                >
                   Kami akan membimbing Anda langkah demi langkah untuk bergabung
                   dalam kelas kami. Ikuti tutorial kami yang mudah dipahami, dan
                   mulai perjalanan Anda menuju pengetahuan dan pengembangan diri
                   yang lebih baik. Mari mulai perjalanan belajar Anda bersama
                   kami!
                 </p>
-                <Link href="/register" className="w-[45%] md:ml-auto">
+                <Link
+                  href="/register"
+                  className="w-[45%] md:ml-auto"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                >
                   <Button
                     className={"w-full mt-5 opacity-90 hover:opacity-100"}
                   >
                     Mari Mulai
                   </Button>
                 </Link>
-                <div className="absolute w-5 h-5 rounded-full bg-orangeEduSri top-[2.5rem] right-[20rem] z-0 hidden lg:block" />
-                <div className="absolute w-7 h-7 rounded-full bg-greenEduSri bottom-[5rem] left-[12rem] z-0 hidden lg:block" />
-                <div className="absolute w-9 h-9 rounded-full bg-orangeEduSri bottom-[4rem] right-[18rem] z-0 hidden xl:block" />
+                <div
+                  className="absolute w-5 h-5 rounded-full bg-orangeEduSri top-[2.5rem] right-[20rem] z-0 hidden lg:block"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                />
+                <div
+                  className="absolute w-7 h-7 rounded-full bg-greenEduSri bottom-[5rem] left-[12rem] z-0 hidden lg:block"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                />
+                <div
+                  className="absolute w-9 h-9 rounded-full bg-orangeEduSri bottom-[4rem] right-[18rem] z-0 hidden xl:block"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
+                />
               </div>
             </div>
           </div>
