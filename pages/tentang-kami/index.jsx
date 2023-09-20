@@ -170,11 +170,10 @@ export default function TentangKami() {
                         }
                       )}
                     >
-                      Layanan edukasi berbasis online adalah platform atau
-                      program yang menyediakan akses ke pendidikan dan pelatihan
-                      melalui internet. Ini termasuk kursus online, pelatihan
-                      jarak jauh, webinar, dan sumber daya pembelajaran digital
-                      lainnya.
+                      EduSri merupakan platform atau program yang menyediakan
+                      akses ke pendidikan dan pelatihan melalui internet,
+                      termasuk kursus online, pelatihan jarak jauh, webinar, dan
+                      sumber daya pembelajaran digital lainnya.
                     </p>
                   </div>
                   {activeFaq === 1 ? (

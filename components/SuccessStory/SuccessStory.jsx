@@ -39,9 +39,9 @@ export default function SuccessStory() {
               data-aos="fade-left"
               data-aos-delay="200"
             >
-              Dapatkan dukungan siswa 24/7 untuk membantu Anda meraih
-              keberhasilan akademik kapan pun Anda membutuhkannya. Kami siap
-              membantu Anda dengan layanan terbaik.
+              Mari tonton inspirasi dengan kisah sukses alumni kami yang telah
+              meraih prestasi gemilang setelah menempuh pendidikan di sini.
+              Mereka adalah bukti keberhasilan kami.
             </p>
             <div data-aos="fade-left" data-aos-delay="300">
               <Button className={"w-fit mt-5 opacity-90 hover:opacity-100"}>
