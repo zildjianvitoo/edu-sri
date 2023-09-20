@@ -30,20 +30,20 @@ export default function SuccessStory() {
             <h3
               className="text-3xl font-semibold text-textColor lg:text-4xl"
               data-aos="fade-left"
-              data-aos-delay="300"
+              data-aos-delay="200"
             >
               Cerita Sukses Dari Alumni
             </h3>
             <p
               className=" text-lg lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5"
               data-aos="fade-left"
-              data-aos-delay="400"
+              data-aos-delay="200"
             >
               Dapatkan dukungan siswa 24/7 untuk membantu Anda meraih
               keberhasilan akademik kapan pun Anda membutuhkannya. Kami siap
               membantu Anda dengan layanan terbaik.
             </p>
-            <div data-aos="fade-left" data-aos-delay="500">
+            <div data-aos="fade-left" data-aos-delay="300">
               <Button className={"w-fit mt-5 opacity-90 hover:opacity-100"}>
                 Baca Selengkapnya
               </Button>

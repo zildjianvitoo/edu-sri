@@ -12,7 +12,11 @@ export default function Benefit() {
   return (
     <section className="bg-[#FFf7F8] py-14 relative">
       <div className="container">
-        <div className="absolute hidden lg:block w-8 h-8 right-[18rem] top-[4rem] bg-orangeEduSri rounded-full" />
+        <div
+          className="absolute hidden lg:block w-8 h-8 right-[18rem] top-[4rem] bg-orangeEduSri rounded-full"
+          data-aos="zoom-in"
+          // data-aos-delay="200"
+        />
         <div className="flex flex-col items-center md:flex-row gap-y-10 md:gap-x-20 lg:gap-x-44">
           <figure className="" data-aos="fade-right" data-aos-delay="200">
             <Image

@@ -69,12 +69,10 @@ export default function TentangKami() {
                 <div
                   className="absolute w-9 h-9 rounded-full bg-secondary -bottom-[1.15rem] left-[6rem] z-0 hidden lg:block"
                   data-aos="zoom-in"
-                  data-aos-delay="200"
                 />
                 <div
                   className="absolute w-11 h-11 rounded-full bg-[#e0e0e0] bottom-0 right-[14rem] z-0 hidden xl:block"
                   data-aos="zoom-in"
-                  data-aos-delay="200"
                 />
               </div>
             </div>
@@ -121,17 +119,14 @@ export default function TentangKami() {
                 <div
                   className="absolute w-5 h-5 rounded-full bg-orangeEduSri top-[2.5rem] right-[20rem] z-0 hidden lg:block"
                   data-aos="zoom-in"
-                  data-aos-delay="200"
                 />
                 <div
                   className="absolute w-7 h-7 rounded-full bg-greenEduSri bottom-[5rem] left-[12rem] z-0 hidden lg:block"
                   data-aos="zoom-in"
-                  data-aos-delay="200"
                 />
                 <div
                   className="absolute w-9 h-9 rounded-full bg-orangeEduSri bottom-[4rem] right-[18rem] z-0 hidden xl:block"
                   data-aos="zoom-in"
-                  data-aos-delay="200"
                 />
               </div>
             </div>

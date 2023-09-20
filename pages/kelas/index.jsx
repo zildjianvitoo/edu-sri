@@ -31,17 +31,14 @@ export default function Kelas() {
               <div
                 className="absolute hidden lg:block w-4 h-4 rounded-full bg-secondary top-[10rem] left-[20rem]"
                 data-aos="zoom-in"
-                data-aos-delay="200"
               />
               <div
                 className="absolute w-9 h-9 rounded-full bg-greenEduSri top-[30rem] right-[4.5rem] z-0 hidden md:block"
                 data-aos="zoom-in"
-                data-aos-delay="200"
               />
               <div
                 className="absolute w-9 h-9 rounded-full bg-primary bottom-0 left-[5rem] z-0 hidden md:block"
                 data-aos="zoom-in"
-                data-aos-delay="200"
               />
               <CourseList />
             </div>
