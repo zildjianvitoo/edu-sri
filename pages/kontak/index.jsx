@@ -10,10 +10,10 @@ export default function Kontak() {
       <Head>
         <title>Kontak Kami | EduSir</title>
       </Head>
-      <main>
+      <main className="overflow-x-hidden">
         <section className="bg-[#FFf7F8] py-14 lg:pb-24 relative">
           <div className="container">
-            <div className=" flex flex-col text-center">
+            <div className="flex flex-col text-center ">
               <h3 className="text-3xl font-semibold text-textColor lg:text-4xl">
                 Hubungi Kami
               </h3>
@@ -31,10 +31,10 @@ export default function Kontak() {
               <div className="absolute hidden lg:block w-24 h-24 rounded-full bg-secondary bottom-[3.5rem] right-[14rem]" />
               <div className="absolute hidden lg:block w-8 h-8 rounded-full bg-secondary bottom-[1.5rem] right-[21rem]" />
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto  gap-y-6 gap-x-14 mt-10 relative">
-                <div className="py-9 px-12 flex gap-5 items-center justify-center bg-white rounded-xl shadow-md">
+              <div className="relative grid grid-cols-1 mx-auto mt-10 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 gap-x-14">
+                <div className="flex items-center justify-center gap-5 px-12 bg-white shadow-md py-9 rounded-xl">
                   <SlLocationPin className="text-3xl lg:text-4xl text-primary" />
-                  <div className=" flex flex-col">
+                  <div className="flex flex-col ">
                     <p className="text-lg lg:text-xl  text-[#4f4f4f] max-w-lg font-medium mx-auto">
                       123 - Jakabaring
                     </p>
@@ -43,9 +43,9 @@ export default function Kontak() {
                     </p>
                   </div>
                 </div>
-                <div className="py-9 px-12 flex gap-5 items-center justify-center bg-white rounded-xl shadow-md">
+                <div className="flex items-center justify-center gap-5 px-12 bg-white shadow-md py-9 rounded-xl">
                   <FiPhoneCall className="text-3xl lg:text-4xl text-primary" />
-                  <div className=" flex flex-col">
+                  <div className="flex flex-col ">
                     <p className="text-lg lg:text-xl  text-[#4f4f4f] max-w-lg font-medium mx-auto">
                       +628123456789
                     </p>
@@ -54,18 +54,18 @@ export default function Kontak() {
                     </p>
                   </div>
                 </div>
-                <div className="py-9 px-12 flex gap-5 items-center justify-center bg-white rounded-xl shadow-md">
+                <div className="flex items-center justify-center gap-5 px-12 bg-white shadow-md py-9 rounded-xl">
                   <FiMail className="text-3xl lg:text-4xl text-primary" />
                   <p className="text-lg lg:text-xl  text-[#4f4f4f] max-w-lg font-medium  mx-auto">
                     EDUSRI.com
                   </p>
                 </div>
               </div>
-              <div className="mt-16 flex flex-col py-9 px-6 lg:px-12 xl:px-16 gap-12 rounded-xl bg-white shadow-sm relative z-10">
+              <div className="relative z-10 flex flex-col gap-12 px-6 mt-16 bg-white shadow-sm py-9 lg:px-12 xl:px-16 rounded-xl">
                 <h3 className="text-3xl font-semibold text-textColor lg:text-4xl">
                   Ada Masukan?
                 </h3>
-                <div className="flex flex-col lg:flex-row gap-6 w-full ">
+                <div className="flex flex-col w-full gap-6 lg:flex-row ">
                   <div className="flex flex-col lg:w-1/4 gap-[28px] ">
                     <input
                       className="rounded-xl p-4 bg-[#FFf7F8] focus:outline-none focus:border-primary focus:border"
@@ -80,7 +80,7 @@ export default function Kontak() {
                       placeholder="Subject"
                     />
                   </div>
-                  <div className="flex flex-col lg:w-3/4 h-full ">
+                  <div className="flex flex-col h-full lg:w-3/4 ">
                     <textarea
                       className="rounded-xl p-4 px-6 bg-[#FFf7F8] focus:outline-none focus:border-primary focus:border "
                       placeholder="Tuliskan saran dan masukanmu disini"
@@ -88,7 +88,7 @@ export default function Kontak() {
                     />
                   </div>
                 </div>
-                <a className="w-fit mx-auto">
+                <a className="mx-auto w-fit">
                   <Button className={"opacity-90 hover:opacity-100"}>
                     Beri Masukan
                   </Button>

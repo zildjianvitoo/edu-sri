@@ -24,14 +24,14 @@ export default function TentangKami() {
       <Head>
         <title>Tentang Kami | EduSir</title>
       </Head>
-      <main>
+      <main className="overflow-x-hidden">
         <Intro />
         <section className="bg-[#FFf7F8] py-14 lg:py-20 relative">
           <div className="container ">
-            <div className="flex flex-col justify-center  gap-y-20">
-              <div className="flex flex-col items-center md:flex-row gap-y-6 gap-x-12 lg:gap-x-24 xl:gap-x-36 relative">
+            <div className="flex flex-col justify-center gap-y-20">
+              <div className="relative flex flex-col items-center md:flex-row gap-y-6 gap-x-12 lg:gap-x-24 xl:gap-x-36">
                 <figure
-                  className="rounded-lg relative z-10 "
+                  className="relative z-10 rounded-lg "
                   data-aos="fade-right"
                 >
                   <Image
@@ -97,7 +97,7 @@ export default function TentangKami() {
                 </figure>
                 <div className="flex flex-col md:text-right">
                   <h3
-                    className="text-3xl font-semibold text-textColor lg:text-4xl max-w-md ml-auto"
+                    className="max-w-md ml-auto text-3xl font-semibold text-textColor lg:text-4xl"
                     data-aos="fade-right"
                   >
                     Tutorial Cara Tergabung Dalam Kelas Kami | Mari Mulai!
@@ -144,19 +144,19 @@ export default function TentangKami() {
         </section>
         <section className="bg-[#FFf7F8] py-14 lg:py-20 relative">
           <div className="container">
-            <div className=" flex flex-col justify-center text-center">
+            <div className="flex flex-col justify-center text-center ">
               <h3 className="text-3xl font-semibold text-textColor lg:text-4xl">
                 Pertanyaan Yang Sering Diajukan
               </h3>
               <hr className="bg-[#e5dfdf] w-1/4 sm:w-1/6 mx-auto h-[3px] mt-3" />
-              <div className="mt-9 flex flex-col gap-5">
+              <div className="flex flex-col gap-5 mt-9">
                 <div
                   className={
                     "rounded-lg bg-white shadow-md py-8 px-10 cursor-pointer "
                   }
                   onClick={() => onOpenFaqHandler(1)}
                 >
-                  <div className=" flex justify-between text-left">
+                  <div className="flex justify-between text-left ">
                     <div
                       className={" grid  grid-rows-[0fr] overflow-hidden "}
                       style={{ transition: "grid-template-rows 200ms" }}
@@ -198,7 +198,7 @@ export default function TentangKami() {
                   }
                   onClick={() => onOpenFaqHandler(2)}
                 >
-                  <div className=" flex justify-between text-left">
+                  <div className="flex justify-between text-left ">
                     <div
                       className={" grid  grid-rows-[0fr] overflow-hidden "}
                       style={{ transition: "grid-template-rows 200ms" }}
@@ -243,7 +243,7 @@ export default function TentangKami() {
                   }
                   onClick={() => onOpenFaqHandler(3)}
                 >
-                  <div className=" flex justify-between text-left">
+                  <div className="flex justify-between text-left ">
                     <div
                       className={" grid  grid-rows-[0fr] overflow-hidden "}
                       style={{ transition: "grid-template-rows 200ms" }}

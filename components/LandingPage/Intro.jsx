@@ -12,7 +12,7 @@ export default function Intro() {
       <div className="container ">
         <div
           className="absolute w-9 h-9 rounded-full right-[16rem] top-[3rem] bg-greenEduSri hidden lg:block"
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-aos-delay="200"
         />
         <div className="flex flex-col gap-3 mt-3 text-center">
@@ -34,7 +34,7 @@ export default function Intro() {
           <div className="flex flex-wrap justify-center gap-10 mt-6">
             <div
               className="absolute w-6 h-6 rounded-full left-[30rem] top-[11rem] bg-orangeEduSri hidden lg:block"
-              data-aos="fade-right"
+              data-aos="zoom-in"
               data-aos-delay="200"
             />
             <div

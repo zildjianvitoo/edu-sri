@@ -11,7 +11,7 @@ export default function Kelas() {
       <Head>
         <title>Kelas | EduSri</title>
       </Head>
-      <main>
+      <main className="overflow-x-hidden">
         <section className="bg-[#FFf7F8] py-14 lg:pb-24">
           <div className="container">
             <div className="flex flex-col text-center ">
