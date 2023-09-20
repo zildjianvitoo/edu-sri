@@ -10,7 +10,7 @@ export default function Jumbotron() {
     AOS.refresh();
   }, []);
   return (
-    <section className=" bg-[#FFf7F8] lg:min-h-[85vh]">
+    <section className=" bg-[#FFf7F8] pb-20 lg:min-h-[85vh]">
       <div className="container ">
         <div className="flex flex-col items-center lg:gap-x-32 md:flex-row">
           <div className="flex flex-col lg:mt-24">
