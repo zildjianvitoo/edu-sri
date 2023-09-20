@@ -14,7 +14,7 @@ export default function Kontak() {
             </h3>
 
             <hr className="bg-[#e5dfdf] w-1/4 sm:w-[10%] mx-auto h-[3px] mt-3" />
-            <p className=" text-lg lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-10 mx-auto">
+            <p className=" text-lg lg:text-xl  text-[#A0A0A0] max-w-lg md:mt-3 mt-10 mx-auto">
               Kami siap membantu Anda. Silakan hubungi kami untuk pertanyaan,
               saran, atau informasi lebih lanjut.
             </p>

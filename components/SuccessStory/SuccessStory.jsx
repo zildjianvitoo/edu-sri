@@ -35,7 +35,7 @@ export default function SuccessStory() {
               Cerita Sukses Dari Alumni
             </h3>
             <p
-              className=" text-lg lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5"
+              className=" text-lg lg:text-xl  text-[#A0A0A0] max-w-lg font-normal md:mt-3 mt-5"
               data-aos="fade-left"
               data-aos-delay="200"
             >

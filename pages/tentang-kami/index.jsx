@@ -48,7 +48,7 @@ export default function TentangKami() {
                   Cerita Sukses Para Alumni
                 </h3>
                 <p
-                  className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5"
+                  className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg md:mt-3 mt-5"
                   data-aos="fade-left"
                   data-aos-delay="200"
                 >
@@ -94,7 +94,7 @@ export default function TentangKami() {
                   Tutorial Cara Tergabung Dalam Kelas Kami | Mari Mulai!
                 </h3>
                 <p
-                  className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg font-medium md:mt-3 mt-5"
+                  className=" text-lg md:text-base lg:text-xl  text-[#A0A0A0] max-w-lg md:mt-3 mt-5"
                   data-aos="fade-right"
                   data-aos-delay="100"
                 >
@@ -164,7 +164,7 @@ export default function TentangKami() {
                     </h4>
                     <p
                       className={cn(
-                        "min-h-0 max-w-[90%] mt-5 hidden opacity-0 text-lg lg:text-xl  text-[#A0A0A0] font-medium",
+                        "min-h-0 max-w-[90%] mt-5 hidden opacity-0 text-lg lg:text-xl  text-[#A0A0A0]",
                         {
                           "block opacity-100": activeFaq === 1,
                         }
@@ -208,7 +208,7 @@ export default function TentangKami() {
                     </h4>
                     <p
                       className={cn(
-                        "min-h-0 max-w-[90%] mt-5 hidden opacity-0 text-lg lg:text-xl  text-[#A0A0A0] font-medium",
+                        "min-h-0 max-w-[90%] mt-5 hidden opacity-0 text-lg lg:text-xl  text-[#A0A0A0]",
                         {
                           "block opacity-100": activeFaq === 2,
                         }
@@ -252,7 +252,7 @@ export default function TentangKami() {
                     </h4>
                     <p
                       className={cn(
-                        "min-h-0 max-w-[90%] mt-5 hidden opacity-0 text-lg lg:text-xl  text-[#A0A0A0] font-medium",
+                        "min-h-0 max-w-[90%] mt-5 hidden opacity-0 text-lg lg:text-xl  text-[#A0A0A0]",
                         {
                           "block opacity-100": activeFaq === 3,
                         }

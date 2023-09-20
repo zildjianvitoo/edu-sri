@@ -38,7 +38,7 @@ export default function Benefit() {
               24/7 Dukungan Siswa
             </h3>
             <p
-              className="mt-4 text-lg lg:text-xl  text-[#A0A0A0] max-w-lg font-medium"
+              className="mt-4 text-lg lg:text-xl  text-[#A0A0A0] max-w-lg"
               data-aos="fade-left"
               data-aos-delay="300"
             >

@@ -23,7 +23,7 @@ export default function Intro() {
             Platform Pembelajaran Terbesar di Indonesia
           </h3>
           <h4
-            className="text-lg font-medium text-white lg:text-xl "
+            className="text-lg text-white lg:text-xl "
             data-aos="fade-down"
             data-aos-delay="100"
           >
