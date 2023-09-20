@@ -28,9 +28,9 @@ export default function SuccessStory() {
             <Button className={"w-fit mt-5 opacity-90 hover:opacity-100"}>
               Baca Selengkapnya
             </Button>
-            <div className="absolute w-5 h-5 rounded-full bg-orangeEduSri top-[2.5rem] right-[20rem] z-0 hidden md:block" />
-            <div className="absolute w-7 h-7 rounded-full bg-secondary bottom-[2.5rem] left-[12rem] z-0 hidden md:block" />
-            <div className="absolute w-9 h-9 rounded-full bg-greenEduSri bottom-[2.5rem] right-[14rem] z-0 hidden md:block" />
+            <div className="absolute w-5 h-5 rounded-full bg-orangeEduSri top-[2.5rem] right-[20rem] z-0 hidden lg:block" />
+            <div className="absolute w-7 h-7 rounded-full bg-secondary bottom-[5rem] left-[12rem] z-0 hidden lg:block" />
+            <div className="absolute w-9 h-9 rounded-full bg-greenEduSri bottom-[5.5rem] right-[14rem] z-0 hidden xl:block" />
           </div>
         </div>
       </div>

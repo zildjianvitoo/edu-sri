@@ -12,7 +12,7 @@ export default function Jumbotron() {
   return (
     <section className=" bg-[#FFf7F8] min-h-[85vh]">
       <div className="container ">
-        <div className="flex flex-col items-center lg:gap-x-32 lg:flex-row">
+        <div className="flex flex-col items-center lg:gap-x-32 md:flex-row">
           <div className="flex flex-col lg:mt-24">
             <h4 className="text-xl font-bold uppercase text-orangeEduSri">
               Sudah 5 tahun sejak berdiri
@@ -58,7 +58,7 @@ export default function Jumbotron() {
                 height={610}
                 priority={true}
                 quality={100}
-                className="-scale-x-100"
+                className="-scale-x-100 sm:w-[400px] lg:w-[530px]"
               />
             </figure>
           </div>

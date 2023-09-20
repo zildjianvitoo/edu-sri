@@ -13,12 +13,12 @@ const navLinks = [
     name: "Home",
   },
   {
-    path: "/kategori",
-    name: "Kategori",
-  },
-  {
     path: "/kursus",
     name: "Kursus",
+  },
+  {
+    path: "/tentang",
+    name: "Tentang Kami",
   },
   {
     path: "/kontak",
