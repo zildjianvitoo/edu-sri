@@ -59,9 +59,9 @@ export default function Navbar() {
     <header className={`flex items-center header `} ref={headerRef}>
       <div className="container">
         <div className="flex items-center justify-between">
-          <div className="flex ">
+          <Link href={"/"} className="flex cursor-pointer ">
             <h3 className="font-bold text-[32px] text-textColor">EduSri</h3>
-          </div>
+          </Link>
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
             <ul className="flex items-center menu gap-[2.7rem] ">
               <GrClose className="absolute block text-2xl top-9 right-7 lg:hidden" />
