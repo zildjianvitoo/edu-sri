@@ -10,10 +10,12 @@ import "aos/dist/aos.css";
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className={`${TTCommons.className}`}>
-      <Navbar />
-      <Component {...pageProps} />
-      <Footer />
-    </div>
+    <>
+      <div className={`${TTCommons.className}`}>
+        <Navbar />
+        <Component {...pageProps} />
+        <Footer />
+      </div>
+    </>
   );
 }
